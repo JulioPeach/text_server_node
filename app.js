@@ -8,12 +8,13 @@ require('dotenv').config();;
 
 const port = process.env.PORT;
 
-
 app.set('view engine', 'hbs');
 hbs.registerPartials(__dirname + '/views/partials', function (err) {});
 
 /*
 directorio publico, tienen prioridad sobre las rutas definidas
+
+/Users/julio/Desktop/udemy/06-webserver/app.js
 */
 
 // servir contenido estático
